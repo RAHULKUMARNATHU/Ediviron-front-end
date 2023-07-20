@@ -1,0 +1,36 @@
+.Menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &.active {
+    background-color: #5932ea;
+    color: white;
+
+    .left {
+      .title {
+        color: white;
+      }
+      svg {
+        stroke: white;
+      }
+    }
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    .title {
+      color: #9197b3;
+      font-size: 14px;
+      font-weight: 500;
+      margin-left: 14px;
+      width: 160px;
+    }
+    svg {
+      stroke: #9197b3;
+    }
+  }
+}

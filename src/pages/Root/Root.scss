@@ -1,0 +1,13 @@
+.Root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7f9ff;
+
+  .left {
+    flex: 0 0 102px;
+  }
+  .right {
+    flex: 1;
+  }
+}

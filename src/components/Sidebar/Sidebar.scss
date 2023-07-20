@@ -1,0 +1,33 @@
+.Sidebar {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 28px;
+  width: 310px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 53px;
+    .title {
+      color: #000;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.26px;
+      margin-left: 8px;
+    }
+    .version {
+      color: #838383;
+      font-size: 10px;
+      font-weight: 500;
+      line-height: normal;
+      align-self: flex-end;
+    }
+  }
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}

@@ -1,0 +1,56 @@
+.Stats {
+  display: flex;
+  gap: 20px;
+  padding-right: 36px;
+  border-right: 1px solid #f0f0f0;
+  &:last-child {
+    border: none;
+  }
+  .statsLeft {
+    padding: 20px;
+    border-radius: 50%;
+    height: 84px;
+    width: 84px;
+
+    &.green {
+      background: linear-gradient(201deg, #d3ffe7 0%, #effff6 100%);
+    }
+
+    &.red {
+      background: linear-gradient(201deg, #ffa3cf 0%, #ffd4f3 100%);
+    }
+
+    &.blue {
+      background: linear-gradient(201deg, #caf1ff 0%, #cdf4ff 100%);
+    }
+  }
+
+  .statsRight {
+    .statsTitle {
+      color: #acacac;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .statsAmount {
+      color: #333;
+      font-size: 32px;
+      font-weight: 600;
+    }
+
+    .statsIncrementDecrement {
+      display: flex;
+      align-items: center;
+      color: #292d32;
+      font-size: 12px;
+      font-weight: 400;
+      .percentage {
+        color: #00ac4f;
+        display: flex;
+        align-items: center;
+        margin-right: 4px;
+      }
+    }
+  }
+}
